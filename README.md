@@ -1,12 +1,27 @@
-# PHARMACY MANAGEMENT SYSTEM
-Pharmacy management system with login, billing, inventory and report generation features implemented using tkinter and json in Python.
+# HOSPITAL MANAGEMENT SYSTEM
 
-BILLING:
-Invoice is generated upon entry of the required medicines along with customer details.
-Appropriate alerts generated on entering invalid medicine id or if the entered medicine is out of stock as well as when the medicine is expired.Else bin number(location of storage of given medicine) is dispalyed. 
+Hospital Management System with secure login, database connectivity, and modules for managing doctors, patients, pharmacy, and billing. The system is implemented using Python with MySQL integration and utilizes PrettyTable for structured data display.
 
-REPORT GENERATION:
-Daily, monthly and annual sales are diaplayed using matplotlib.
+DOCTOR MANAGEMENT:
 
-STOCK DISPLAY:
-Displays low stock medicines, expired medicines and current stock of the pharmacy
+Allows insertion and retrieval of doctor records including name, doctor ID, age, mobile number, specialization, and consultation fees. Data is stored in a MySQL database and displayed in tabular format.
+
+PATIENT MANAGEMENT:
+
+Maintains patient records such as patient ID, name, age, gender, contact details, consultant doctor, along with date and time of visit. Ensures organized storage and easy access of patient information.
+
+PHARMACY MANAGEMENT:
+
+Handles medicine inventory including medicine ID, type, name, cost per unit, and quantity. Enables updating stock dynamically when medicines are issued.
+
+BILLING SYSTEM:
+
+Generates pharmacy bills for patients by calculating total cost based on selected medicines and quantities. Automatically updates stock and records billing details with patient ID and date.
+
+RECORD DISPLAY SYSTEM:
+
+Provides functionality to view all stored records of doctors, patients, pharmacy inventory, and billing details in a well-structured tabular format using PrettyTable.
+
+LOGIN SYSTEM:
+
+Implements a basic authentication system requiring a valid user ID and password to access the Hospital Management System, ensuring restricted and secure usage.
